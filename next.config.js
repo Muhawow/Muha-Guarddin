@@ -3,7 +3,7 @@
  */
 const nextConfig = {
   output: 'export',
-  distDir: 'Deploy',
+  // distDir: 'Deploy',
   // images: {
   //   unoptimized: true,
   // },
