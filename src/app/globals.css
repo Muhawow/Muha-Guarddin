@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0F4C75; /* deep blue text */
+  --color-primary: #3282B8;   /* medium blue */
+  --color-secondary: #0F4C75; /* deep blue */
+  --color-accent: #BBE1FA;    /* light blue */
+  --color-bg: #f9fafb;        /* subtle section bg */
+  --color-text: #1B262C;      /* dark navy text */
+  --transparent: rgba(255, 255, 255, 0.2);
+  --text: #f2e6e6;
+  --navbar-buttons: #1a2226;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-my-grid-color: #1a2226;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b1214;    /* dark navy */
+    --foreground: #BBE1FA;    /* light blue text */
+    --color-primary: #0F4C75; /* deepen primary in dark */
+    --color-secondary: #3282B8;
+    --color-accent: #BBE1FA;
+    --color-bg: #0a0a0a;
+    --color-text: #1B262C;
+    --transparent: rgba(255, 255, 255, 0.2);
+  }
+}
+
+
+.fa-icon { 
+  font-size: 2px;        /* controls size */
+  line-height: 1;         /* avoids extra vertical space */
+  color: var(--foreground);
+  transition: color .2s ease;
+}
+
+.fa-icon--lg { font-size: 40px; }
+.fa-icon--sm { font-size: 20px; }
+
+/* optional hover color */
+.fa-link:hover .fa-icon { color: var(--color-primary); }
+
+
+/* Base */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headings example */
+h1 { color: var(--text); }
+
+p {
+  color: var(--text);
+}
+
+
+/* Buttons */
+a {
+  background-color: var(--navbar-buttons) ;
+  color: var(--text);
+  padding: .6rem 1rem;
+  border-radius: .6rem;
+  transition: background-color .2s ease;
+  
+}
+a:hover { 
+  background-color: #31383c; 
+}
+
+.a_icon{
+  color: var(--text);
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  transition: background-color .2s ease;
+  background-color: transparent; 
+}
+.a_icon:hover{
+  background-color: #31383c; 
+}
+
+.a_writings{
+  background-color: var(--color-secondary);
+}
+
+.a_writings:hover{
+  color: #fff;
+}
+
+svg{
+  /* background-color: #0F4C75; */
+}
+
+.planet{
+  background-color: transparent;
+}
+
+
+/* Header + Navbar (uses your variables) */
+header {
+  /* background-color: var(--color-text); deep blue bar */
+  /* padding: 1rem 0; */
+  /* margin-bottom: auto; */
+  border: 0;
+}
+
+
+/* optional: make header sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: saturate(1.2) blur(2px);
+}
+
+
+.my-custom-grid-item {
+  background-color: var(--color-my-grid-color);
+}
+
