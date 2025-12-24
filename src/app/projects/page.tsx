@@ -16,7 +16,7 @@ export default function ProjectsPage() {
       <section id="about" className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-3xl font-bold mb-4">My Projects</h1>
         <p className="text-[--color-text]">
-          This is your content area. Scroll to see the sticky, glassy navbar stay put.
+          Welcome to My Project, feel free to look at my projects!
         </p>
 
         <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12">
@@ -26,7 +26,7 @@ export default function ProjectsPage() {
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Portable Adzan Caller</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              A device that could perform call to prayer(Adzan) from the mosques to muslims at home using Raspberry Pi.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
@@ -36,11 +36,11 @@ export default function ProjectsPage() {
           </div>
         </div>
           <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
-          <img className="w-full" src="./img/bumi.png" alt="Sunset in the mountains"></img>
+          <img className="w-fit" src="./img/bumi.png" alt="Sunset in the mountains"></img>
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Smart CPR</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              A CPR device that helps a newbie to learn how to perform CPR in a correct way using Micro:bit.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
@@ -50,20 +50,20 @@ export default function ProjectsPage() {
           </div>
         </div>
         <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
-          <img className="w-full" src="./img/BoomerangLauncher.png" alt="Sunset in the mountains"></img>
+          <img className="w-fit" src="./img/BoomerangLauncher.png" alt="Sunset in the mountains"></img>
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Boomerang Launcher</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+             A machine that launch boomerang using a rotating motor and controlled by Arduino.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Arduino</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Python</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Competition</span>
           </div>
         </div>
-        <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
+        {/* <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
           <img className="w-full" src="/img/bumi.png" alt="Sunset in the mountains"></img>
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -76,7 +76,7 @@ export default function ProjectsPage() {
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
           </div>
-        </div>
+        </div> */}
         </div>  
       </section>
     </html>

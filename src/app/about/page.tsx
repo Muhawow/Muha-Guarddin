@@ -21,18 +21,19 @@ export default function AboutPage() {
 
         {/* <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12"></div> */}
         <div className="grid grid-flow-col grid-rows-2 gap-4">
-          <div className="row-span-3">
+          <div className="row-span-1 sm:row-span-2 ">
             <img className="h-100 w-90 object-cover mask-r-from-30% rounded-lg" src="./img/wow.jpg" alt="Sunset in the mountains"></img>
           </div>
-          <div className="col-span-2 ">
+          <div className=" ">
             <h1 className="text-5xl text-[--color-text]">Muhammad Guarddin</h1>
-            <p className="w-full py-8 text-[--color-text] text-wrap text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div className="col-span-1 row-span-2 ...">
-            <p className="w-full text-[--color-text] text-wrap text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p className="w-full py-8 text-[--color-text] text-wrap text-justify text-left">Hi, my name is Muhammad Guarddin, you can call me Muha, I'm currently a 12th grade student at highschool, and I'm from Indonesia. I like to learn something new that is related to computer and also engineering stuffs, as I hope I could be applied to university major related to that. </p>
+           
+            <p className="w-full text-[--color-text] text-wrap text-justify"></p>
           
           </div>
-        </div>
+        
+          </div>
+        {/* </div> */}
       </section>
     </html>
   )

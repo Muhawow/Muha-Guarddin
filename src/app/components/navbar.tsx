@@ -40,15 +40,20 @@ export default function Navbar(): JSX.Element {
           Resume
         </Link>
       </li>
+        <li>
+        <Link href="/friends" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Connections
+        </Link>
+      </li>
     </>
   )
 
   return (
-    <header className="sticky top-0 z-50 py-4 ">
-      <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 py-4">
+      <div className="mx-auto items-center place-content-around  px-4 sm:px-6 lg:px-8 flex">
         <div
           className="mt-12 rounded-2xl border border-white/20 shadow-lg ring-1 ring-black/5
-                     backdrop-blur-md dark:supports-[backdrop-filter]:bg-neutral-900/30"
+                     backdrop-blur-md dark:supports-[backdrop-filter]:bg-neutral-900/30 flex "
         >
           <nav className="flex h-14 items-center justify-center px-4">
             <ul className="hidden md:flex items-center gap-8 text-sm">{NavLinks}</ul>
