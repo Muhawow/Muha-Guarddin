@@ -15,32 +15,66 @@ export default function Navbar(): JSX.Element {
 
   const NavLinks: ReactNode = (
     <>
-      <li>
+      <li className=''>
         <Link href="/" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Home
         </Link>
       </li>
-      <li>
+      <li className=''>
         <Link href="/about" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           About
         </Link>
       </li>
-      <li>
+      <li className=''>
         <Link href="/projects" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Projects
         </Link>
       </li>
-      <li>
+      <li className=''>
         <Link href="/writings" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Writings
         </Link>
       </li>
-      <li>
+      <li className=''>
         <Link href="/resume" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Resume
         </Link>
       </li>
-        <li>
+        <li className=''>
+        <Link href="/friends" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Connections
+        </Link>
+      </li>
+    </>
+  )
+     const NavPhone: ReactNode = (
+    <>
+      <li className='my-2'>
+        <Link href="/" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Home
+        </Link>
+      </li>
+      <li className='my-2'>
+        <Link href="/about" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          About
+        </Link>
+      </li>
+      <li className='my-2'>
+        <Link href="/projects" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Projects
+        </Link>
+      </li>
+      <li className='my-2'>
+        <Link href="/writings" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Writings
+        </Link>
+      </li>
+      <li className='my-2'>
+        <Link href="/resume" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+          Resume
+        </Link>
+      </li>
+        <li className='my-2'>
         <Link href="/friends" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Connections
         </Link>
@@ -53,7 +87,7 @@ export default function Navbar(): JSX.Element {
       <div className="mx-auto items-center place-content-around  px-4 sm:px-6 lg:px-8 flex">
         <div
           className="mt-12 rounded-2xl border border-white/20 shadow-lg ring-1 ring-black/5
-                     backdrop-blur-md dark:supports-[backdrop-filter]:bg-neutral-900/30 flex "
+                     backdrop-blur-md dark:supports-[backdrop-filter]:bg-neutral-900/30"
         >
           <nav className="flex h-14 items-center justify-center px-4">
             <ul className="hidden md:flex items-center gap-8 text-sm">{NavLinks}</ul>
@@ -67,7 +101,7 @@ export default function Navbar(): JSX.Element {
             >
               <span className="sr-only">Toggle navigation</span>
               <svg
-                className={`h-6 w-6 transition-transform ${open ? 'rotate-90' : ''}`}
+                className={`"flex items-center justify-center -6 w-6 transition-transform ${open ? 'rotate-90' : ''} `}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -88,7 +122,7 @@ export default function Navbar(): JSX.Element {
               open ? 'max-h-64' : 'max-h-0'
             }`}
           >
-            <ul className="flex flex-col gap-2 px-4 py-3 text-sm">{NavLinks}</ul>
+            <ul className="flex flex-col gap-1 px-4 py-3 text-sm items-center">{NavPhone}</ul>
           </div>
         </div>
       </div>

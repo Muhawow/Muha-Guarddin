@@ -22,7 +22,7 @@ export default function AboutPage() {
         {/* <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12"></div> */}
         <div className="grid grid-flow-col grid-rows-2 gap-4">
           <div className="row-span-1 sm:row-span-2 ">
-            <img className="h-100 w-90 object-cover mask-r-from-30% rounded-lg" src="./img/wow.jpg" alt="Sunset in the mountains"></img>
+            <img className=" h-120 w-90 object-cover rounded-lg mask-r-from-[30%] mask-b-from-[30%]" src="./img/muha.jpg" alt="Sunset in the mountains"></img>
           </div>
           <div className=" ">
             <h1 className="text-5xl text-[--color-text]">Muhammad Guarddin</h1>
@@ -31,8 +31,13 @@ export default function AboutPage() {
             <p className="w-full text-[--color-text] text-wrap text-justify"></p>
           
           </div>
-        
-          </div>
+         </div>
+         <div>
+
+          <h1 className="text-2xl text-[--color-text] my-10">Favorite songs</h1>
+          <iframe data-testid="embed-iframe" className="border-radius:12px" src="https://open.spotify.com/embed/track/7ivFVBVYH5akFOtOAyeJ4j?utm_source=generator&theme=0" width="100%" height="100" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+         <iframe data-testid="embed-iframe" className="border-radius:12px" src="https://open.spotify.com/embed/track/7eAp42zD2PbKJMvHVcHHF8?utm_source=generator" width="100%" height="100" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+         </div>
         {/* </div> */}
       </section>
     </html>
