@@ -23,18 +23,20 @@ export default function WritingsPage() {
       <div className="py-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12">
 
         <div className="max-w-sm rounded my-custom-grid-item overflow-hidden shadow-lg">
-          <img className="w-fit" src="./img/shortessay.png" alt="Sunset in the mountains"></img>
+          <img className="w-fit" src="./img/ShortEssay.png" alt="Sunset in the mountains"></img>
           <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">Call to Prayer in Non-Major Muslim Country Using Raspberry Pi</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-            
+              A device to communicate between the Masjid and users to ensure the rules againts loud noises using Raspberry Pi.
+            </p>
+            <p>
+              
             </p>
            
           </div>
           <div className='flex items-stretch px-6 py-4'>
              <div className='self-center '>
-              <a className='text-xl a_writings' target='_blank' href='/pdf/adzan.pdf'>Read</a>
+              <a className='text-xl a_writings' target='_blank' href='./pdf/adzan.pdf'>Read</a>
               </div>
           </div>
           <div className="px-6 pt-4 pb-2">
