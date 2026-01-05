@@ -35,7 +35,7 @@ export default function WritingsPage() {
           </div>
           <div className='flex items-stretch px-6 py-4'>
              <div className='self-center '>
-              <a className='text-xl a_writings' target='_blank' href='./pdf/adzan.pdf'>Read</a>
+              <a className='text-xl a_writings' target='_blank' href='./pdf/Adzan.pdf'>Read</a>
               </div>
           </div>
           <div className="px-6 pt-4 pb-2">
