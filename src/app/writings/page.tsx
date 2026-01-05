@@ -30,7 +30,6 @@ export default function WritingsPage() {
               A device to communicate between the Masjid and users to ensure the rules againts loud noises using Raspberry Pi.
             </p>
             <p>
-              
             </p>
            
           </div>
