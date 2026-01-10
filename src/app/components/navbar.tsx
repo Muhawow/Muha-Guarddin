@@ -3,6 +3,7 @@
 import { useState, useEffect, type ReactNode } from 'react'
 import Link from 'next/link'
 import type { JSX } from 'react'
+import type { Metadata } from 'next'
 
 export default function Navbar(): JSX.Element {
   const [open, setOpen] = useState(false)
@@ -36,7 +37,7 @@ export default function Navbar(): JSX.Element {
         </Link>
       </li>
       <li className=''>
-        <Link href="/resume" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+        <Link href='./pdf/muharesume.pdf' target='_blank' className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Resume
         </Link>
       </li>
@@ -70,7 +71,7 @@ export default function Navbar(): JSX.Element {
         </Link>
       </li>
       <li className='my-2'>
-        <Link href="/resume" className="transition-colors text-[--color-light] hover:text-[--color-primary]">
+        <Link href='./pdf/muharesume.pdf' target='_blank' className="transition-colors text-[--color-light] hover:text-[--color-primary]">
           Resume
         </Link>
       </li>
