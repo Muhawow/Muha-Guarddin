@@ -1,16 +1,25 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #0F4C75; /* deep blue text */
-  --color-primary: #3282B8;   /* medium blue */
-  --color-secondary: #0F4C75; /* deep blue */
-  --color-accent: #BBE1FA;    /* light blue */
-  --color-bg: #f9fafb;        /* subtle section bg */
-  --color-text: #1B262C;      /* dark navy text */
-  --transparent: rgba(255, 255, 255, 0.2);
-  --text: #f2e6e6;
-  --navbar-buttons: #1a2226;
+  /* --background: #d5a5a5; */
+  /* --foreground: #0F4C75; deep blue text */
+  /* --color-primary: #3282B8;   medium blue */
+  /* --color-secondary: #0F4C75; deep blue */
+  /* --color-accent: #BBE1FA;    light blue */
+  /* --color-bg: #f9fafb;        subtle section bg */
+  /* --color-text: #1B262C;      dark navy text */
+  /* --transparent: rgba(255, 255, 255, 0.2); */
+  /* --text: #fff; */
+  /* --navbar-buttons: #1a2226; */
+    --background: #0b1214;    /* dark navy */
+    --foreground: #eceff1;    /* light blue text */
+    --color-primary: #dde5ea; /* deepen primary in dark */
+    --color-secondary: #3282B8;
+    --color-accent: #BBE1FA;
+    --color-bg: #0a0a0a;
+    --color-text: #1B262C;
+    --transparent: rgba(255, 255, 255, 0.2);
 }
 
 @theme inline {
