@@ -12,14 +12,7 @@
   /* --transparent: rgba(255, 255, 255, 0.2); */
   /* --text: #fff; */
   /* --navbar-buttons: #1a2226; */
-    --background: #0b1214;    /* dark navy */
-    --foreground: #eceff1;    /* light blue text */
-    --color-primary: #dde5ea; /* deepen primary in dark */
-    --color-secondary: #3282B8;
-    --color-accent: #BBE1FA;
-    --color-bg: #0a0a0a;
-    --color-text: #1B262C;
-    --transparent: rgba(255, 255, 255, 0.2);
+  
 }
 
 @theme inline {
@@ -33,9 +26,9 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0b1214;    /* dark navy */
-    --foreground: #BBE1FA;    /* light blue text */
-    --color-primary: #0F4C75; /* deepen primary in dark */
+    --background: #0b1214;  
+    --foreground: #ffffff;    
+    --color-primary: #0F4C75; 
     --color-secondary: #3282B8;
     --color-accent: #BBE1FA;
     --color-bg: #0a0a0a;
