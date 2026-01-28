@@ -21,6 +21,17 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <html lang="en">
+      <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZ59KY6N65"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-PZ59KY6N65');
+        </script>
+      </head>
       <script src="https://kit.fontawesome.com/135bdf8c55.js" crossOrigin="anonymous"></script>
       <body>
         <Navbar />  {/* <-- Your glassy responsive navbar */}
