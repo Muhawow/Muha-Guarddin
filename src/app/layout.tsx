@@ -30,14 +30,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-       
+      <GoogleAnalytics gaId="G-PZ59KY6N65" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
-      <GoogleAnalytics gaId="G-PZ59KY6N65" />
+      
     </html>
   );
 }
